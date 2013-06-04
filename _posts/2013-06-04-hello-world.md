@@ -32,8 +32,16 @@ title: markdown语法测试
 而且可以试下 `小区块` 。
 
 然后java代码走你：
+
 ```java
 this.collector.emit(new Values(str),str);
 ```
+
+如果楼上还不行的话，看来只有这样了？
+
+`
+this.collector.emit(new Values(str),str);
+`
+
 
 {{ page.date | date_to_string }}
